@@ -33,10 +33,11 @@ $department = $_POST['department'];
         <td><?php echo $department; ?></td>
       </tr>
     </table>
-    
     <p>
-      <button id="confirm-btn" onclick="location.href='complete.php';">確定</button>
-      <button id="cancel-btn" onclick="history.back();">キャンセル</button>
+      <form action="complete.php" method="post">
+        <button type="submit" id="confirm-btn">確定</button>
+        <button type="button" id="cancel-btn" onclick="history.back();">キャンセル</button>
+      </form>
     </p>
   </body>
 </html>

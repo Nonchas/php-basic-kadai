@@ -1,3 +1,9 @@
+<?php
+$name = $_POST['employee_name'];
+$age = $_POST['employee_age'];
+$department = $_POST['department'];
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
